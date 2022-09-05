@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="receipe.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Product Filter</h1>
+      <div class="search-box">
+        <form action="" onsubmit="return false">
+          <input type="text" id="search" placeholder="Search Product" />
+          <!-- <button id="btn-search"></button> -->
+        </form>
+      </div>
+      <div class="filter-box">
+        <a href="#" class="btn active" data-filter="all">All</a>
+        <a href="#" class="btn" data-filter="watch">Watch</a>
+        <a href="#" class="btn" data-filter="shirt">Shirt</a>
+        <a href="#" class="btn" data-filter="gown">Gown</a>
+        <a href="#" class="btn" data-filter="jewelry">Jewelry</a>
+        <a href="#" class="btn" data-filter="mobile">Mobile</a>
+      </div>
+    </header>
+    <main>
+      <div class="slide-container">
+        <section class="container" id="store-products">
+          <div class="store-product watch">
+            <img src="images/watch.jpg" alt="" />
+            <div class="product-details">
+              <h2>Watch Product</h2>
+              <p><span>$39.99</span>29.99</p>
+              <a href="#">Add to Cart</a>
+            </div>
+          </div>
+
+          <div class="store-product gown">
+            <img src="images/gown.jpg" alt="" />
+            <div class="product-details">
+              <h2>Watch Product</h2>
+              <p><span>$39.99</span>29.99</p>
+              <a href="#">Add to Cart</a>
+            </div>
+          </div>
+
+          <div class="store-product shirt">
+            <img src="images/shirt.jpg" alt="" />
+            <div class="product-details">
+              <h2>Watch Product</h2>
+              <p><span>$39.99</span>29.99</p>
+              <a href="#">Add to Cart</a>
+            </div>
+          </div>
+
+          <div class="store-product jewelry">
+            <img src="images/j1.jpg" alt="" />
+            <div class="product-details">
+              <h2>Watch Product</h2>
+              <p><span>$39.99</span>29.99</p>
+              <a href="#">Add to Cart</a>
+            </div>
+          </div>
+
+          <div class="store-product mobile">
+            <img src="images/mobi.jpg" alt="" />
+            <div class="product-details">
+              <h2>Watch Product</h2>
+              <p><span>$39.99</span>29.99</p>
+              <a href="#">Add to Cart</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="receipe.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 900px;
+}
+header h1{
+    font-size: 3.5rem;
+    background-color: lightgreen;
+    padding: 1rem;
+}
+form input{
+    width: 30rem;
+    padding: 7px;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    background-color: moccasin;
+    border-radius: 10px;
+    border-bottom: 2px solid yellowgreen;
+
+}
+.btn{
+    color: purple;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.4rem;
+    margin: 18px;
+    background-color: lightpink;
+    border-radius: 10px;
+}
+.active{
+    background-color: lightseagreen;
+}
+#store-products{
+    display: grid;
+grid-template-columns: repeat(auto-fit, minmax(20rem , 1fr));
+}
+
+.store-product{
+    border: 2px solid red;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 20px;
+    max-width: 25rem;
+
+}
+h2 p a {
+    text-align: center;
+}
